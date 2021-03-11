@@ -1,0 +1,37 @@
+div.parent{ 
+    background-color:rgb(0, 113, 128);
+    display:table;
+    width:100%;
+ /* you can change/remove margin */
+}
+div.text{ 
+    vertical-align:middle;
+    display:table-cell;
+    text-align:center;
+    color:white;
+}
+div.parent .imgi{
+    vertical-align:middle;
+    display:table-cell;
+    padding-right:10px;
+    width:50px; /* you can change width */
+}
+div.img img{ 
+    widows: 100%;
+    padding: 10px;
+    height:60px; /* you can change height */
+    vertical-align:middle;
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
